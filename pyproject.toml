@@ -1,0 +1,81 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arecon"
+version = "2.0.0"
+description = "Advanced Attack Surface Management & Bug Bounty Reconnaissance Framework"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "Rakshit Walia", email = "rakshitwalia@users.noreply.github.com" }
+]
+maintainers = [
+    { name = "Rakshit Walia", email = "rakshitwalia@users.noreply.github.com" }
+]
+keywords = [
+    "reconnaissance",
+    "bug-bounty",
+    "attack-surface-management",
+    "security",
+    "subdomain-enumeration",
+    "owasp-wstg",
+    "osint",
+    "cybersecurity",
+    "nmap",
+    "api-discovery"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Environment :: MacOS X",
+    "Environment :: Win32 (MS Windows)",
+    "Environment :: X11 Applications",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: MacOS",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Security",
+    "Topic :: Security :: Cryptography",
+    "Topic :: Internet :: WWW/HTTP :: Indexing/Search"
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "black>=23.0.0",
+    "flake8>=6.0.0",
+    "mypy>=1.0.0"
+]
+
+[project.scripts]
+arecon = "recon:main"
+arecon-web = "arecon_web:launch_web_gui"
+arecon-gui = "arecon_gui:main"
+
+[project.urls]
+Homepage = "https://github.com/rakshitwalia/arecon"
+Repository = "https://github.com/rakshitwalia/arecon.git"
+Issues = "https://github.com/rakshitwalia/arecon/issues"
+Changelog = "https://github.com/rakshitwalia/arecon/releases"
+
+[tool.setuptools.packages.find]
+include = ["core*", "core.*"]
+namespaces = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]

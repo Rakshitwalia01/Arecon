@@ -1,0 +1,20 @@
+# ARECON 2.0 — Dependencies
+# Author: Rakshit Walia
+# Copyright (c) 2026 Rakshit Walia. All rights reserved.
+# License: MIT License
+#
+# Core Framework Architecture:
+# ARECON 2.0 is designed with ZERO mandatory external pip dependencies!
+# It runs natively using Python 3.8+ standard libraries:
+# - sqlite3 (Normalized asset store & history)
+# - urllib & ssl (Network engine & TLS audit)
+# - socket & concurrent.futures (Multi-threaded DNS & port probing)
+# - xml.etree & html.parser (Nmap XML & spidering parser)
+# - tkinter & http.server (Desktop GUI & Web Dashboard)
+#
+# Optional Development, Testing & Code Quality Tools:
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0

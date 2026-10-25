@@ -1,0 +1,12 @@
+# Out-of-Scope Target Patterns / Substrings
+# Lines in this file will be excluded from active DNS resolution and HTTP probing.
+# Add patterns (one per line) matching subdomains or third-party hosted services:
+
+zendesk
+shopify
+statuspage
+mailgun
+freshdesk
+survey
+corp-internal-test
+blog.archive
