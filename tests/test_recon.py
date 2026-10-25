@@ -209,7 +209,7 @@ class TestARECONAdvancedModules(unittest.TestCase):
         self.db = ReconDB(self.db_path)
 
     def tearDown(self):
-        shutil.rmtree(self.temp_dir)
+        shutil.rmtree(self.temp_dir, ignore_errors=True)
 
     def test_scope_enforcement(self):
         scope = ScopeFilter("target.com")
@@ -390,7 +390,7 @@ class TestARECONAdvancedModules(unittest.TestCase):
         self.assertEqual(res["target"], "127.0.0.1")
         self.assertGreater(len(res["dns_assets"]), 0)
         self.assertTrue(os.path.exists(res["report_file"]))
-        with open(res["report_file"], "r") as f:
+        with open(res["report_file"], "r", encoding="utf-8") as f:
             report_text = f.read()
         self.assertIn("ARECON Attack Surface Intelligence Report", report_text)
 
@@ -535,7 +535,7 @@ class TestARECONAdvancedModules(unittest.TestCase):
         self.assertIn("active_findings", res)
         self.assertIn("integrations", res)
         self.assertTrue(os.path.exists(res["report_file"]))
-        with open(res["report_file"], "r") as f:
+        with open(res["report_file"], "r", encoding="utf-8") as f:
             report_text = f.read()
         self.assertIn("ARECON Attack Surface Intelligence Report", report_text)
 

@@ -361,7 +361,7 @@ class ARECONApp:
             self.root.after(0, lambda: self._populate_trees(res))
 
             # Load report
-            with open(res["report_file"], "r") as f:
+            with open(res["report_file"], "r", encoding="utf-8") as f:
                 content = f.read()
             self.root.after(0, lambda: self._update_report(content))
 
