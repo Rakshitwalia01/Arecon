@@ -55,5 +55,5 @@ Do NOT submit pull requests containing aggressive exploit payloads, unauthorized
 ## Author & Maintainer
 
 - **Rakshit Walia**  
-  GitHub: [@rakshitwalia](https://github.com/rakshitwalia)  
+  GitHub: [@Rakshitwalia01](https://github.com/Rakshitwalia01)  
   Copyright (c) 2026 Rakshit Walia. All rights reserved.

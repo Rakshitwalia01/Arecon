@@ -21,7 +21,7 @@ setup(
     description="Advanced Attack Surface Management & Bug Bounty Reconnaissance Framework",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/rakshitwalia/arecon",
+    url="https://github.com/Rakshitwalia01/Arecon",
     license="MIT",
     packages=find_packages(),
     py_modules=["recon", "arecon_web", "arecon_gui", "launch"],

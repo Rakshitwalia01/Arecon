@@ -67,10 +67,10 @@ arecon-web = "arecon_web:launch_web_gui"
 arecon-gui = "arecon_gui:main"
 
 [project.urls]
-Homepage = "https://github.com/rakshitwalia/arecon"
-Repository = "https://github.com/rakshitwalia/arecon.git"
-Issues = "https://github.com/rakshitwalia/arecon/issues"
-Changelog = "https://github.com/rakshitwalia/arecon/releases"
+Homepage = "https://github.com/Rakshitwalia01/Arecon"
+Repository = "https://github.com/Rakshitwalia01/Arecon.git"
+Issues = "https://github.com/Rakshitwalia01/Arecon/issues"
+Changelog = "https://github.com/Rakshitwalia01/Arecon/releases"
 
 [tool.setuptools.packages.find]
 include = ["core*", "core.*"]

@@ -147,7 +147,7 @@ ARECON 2.0 is built with **zero mandatory pip dependencies**—it executes nativ
 
 ```bash
 # Clone the repository
-git clone https://github.com/rakshitwalia/arecon.git
+git clone https://github.com/Rakshitwalia01/Arecon.git
 cd arecon
 
 # (Optional) Install development and testing tools
@@ -332,4 +332,4 @@ Scanning target systems without prior mutual written consent is illegal in most 
 * **Architect & Developer:** **Rakshit Walia**
 * **Copyright:** &copy; 2026 Rakshit Walia. All rights reserved.
 * **License:** [MIT License](LICENSE)
-* **GitHub:** [@rakshitwalia](https://github.com/rakshitwalia)
+* **GitHub:** [@Rakshitwalia01](https://github.com/Rakshitwalia01)
