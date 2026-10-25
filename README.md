@@ -10,6 +10,12 @@
 
 ---
 
+<p align="center">
+  <img src="docs/images/arecon_dashboard.png" alt="ARECON 2.0 Web Dashboard & Attack Surface Management Engine by Rakshit Walia" width="95%">
+</p>
+
+---
+
 ## 📖 Overview
 
 **ARECON 2.0** is an enterprise-grade, continuous attack surface management (ASM) and automated reconnaissance framework architected by **Rakshit Walia**. Designed specifically for authorized bug bounty hunters, penetration testers, and defensive security operations, ARECON bridges the gap between passive intelligence gathering and controlled, safe active validation.
